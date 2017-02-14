@@ -1,0 +1,85 @@
+/* set general style parameters */
+
+html {
+  background-color: #808080;
+}
+
+body {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #FEFEF5;
+  padding: 20px 20px 20px 20px;
+  border: 5px;
+  border-style: solid;
+  border-color: #1C1C1C;
+  font-family: verdana;
+}
+
+p {
+	color: #312D37;
+	font-family: verdana;
+}
+
+/* set paramters for charts */
+
+
+.chart h1, h2, h3 {
+	color: #3F3F3F;
+	font-family: verdana;
+	font-size: 200%;
+
+}
+
+h1.title {
+    color: #1C1C1C;
+    font-size: 40pt;
+    text-align: center;
+    font-family: verdana;
+}
+
+#gini_iframe {
+    border-width: 0;
+    width: 800px;
+    height: 200px;
+}
+
+#bubble_iframe {
+    width: 700px;
+    height: 750px;
+    border-width: 0;
+}
+
+/* center bubble chart */
+
+div.chart iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.quote{
+  border-left: 5px solid #6E86D6;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: gray;
+
+}
+
+#mainQuote {
+    color: #6E86D6;
+    font-weight: bold;
+
+}
+
+#mainQuote:before {
+  color: #6E86D6;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#mainQuote p {
+  display: inline;  
+}
